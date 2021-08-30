@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+bcrypt = "*"
+click = "*"
+coverage = "*"
+eventlet = "*"
+flask-restx = "*"
+gunicorn = "*"
+itsdangerous = "*"
+jsonschema = "*"
+psycopg2-binary = "*"
+pycparser = "*"
+python-dateutil = "*"
+pytz = "*"
+redis = "*"
+selenium = "*"
+six = "*"
+Flask = ">=0.12.3"
+Flask-Bcrypt = "*"
+Flask-Cors = "*"
+Flask-Migrate = "*"
+Flask-Script = "*"
+Flask-SQLAlchemy = "*"
+Flask-Testing = "*"
+Jinja2 = "*"
+Mako = "*"
+PyJWT = "*"
+SQLAlchemy = "*"
+Werkzeug = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
